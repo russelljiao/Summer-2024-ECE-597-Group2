@@ -1,3 +1,3 @@
-# ECE592_Project
-This is the ECE_592 project for MADS and MTIS students in Uvic
+# ECE597_Project
+This is the ECE_597 project for MADS and MTIS students in Uvic
 
