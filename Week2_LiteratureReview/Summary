@@ -1,1 +1,4 @@
-
+#In this week, Yihan Jiao reviewed the applicability of Support Vector Machine (SVM), Random Forest (RF),
+Naive Bayes (NB), and Artificial Neural Networks (ANN) for phishing email detection. 
+highlighted their advantages, disadvantages, and recommended a comprehensive approach for the Capstone project, 
+focusing on feature engineering, model optimization, and evaluation.
