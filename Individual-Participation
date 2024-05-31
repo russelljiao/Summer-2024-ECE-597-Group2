@@ -2,4 +2,6 @@
            The file contains preprocess steps for the email dataset. Including cleaning out Null data entries, convert messages into lowercase, and potential spam keyword detection (for separate normal emails from spam, used for generate classification).
            Work in progress.
            --- Renhou Zhang
-           
+2024/05/30 Added mean_cov_engineering.mlx
+           The file transforms the points to create target mean and covariance, used to explore the given dataset.
+           --- Hui Xu
