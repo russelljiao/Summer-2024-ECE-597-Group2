@@ -3,5 +3,5 @@
            Work in progress.
            --- Renhou Zhang
 2024/05/30 Added mean_cov_engineering.mlx
-           The file transforms the points to create target mean and covariance, used to explore the given dataset.
+           The file transforms the points to create target mean and covariance, used to explore the given dataset. Mainly for researching the impacts of outliers, and the possibile classification technique: bayesian decision.
            --- Hui Xu
