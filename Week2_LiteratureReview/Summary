@@ -1,9 +1,0 @@
-#In this week, Yihan Jiao reviewed the applicability of Support Vector Machine (SVM), Random Forest (RF),
-Naive Bayes (NB), and Artificial Neural Networks (ANN) for phishing email detection. 
-highlighted their advantages, disadvantages, and recommended a comprehensive approach for the Capstone project, 
-focusing on feature engineering, model optimization, and evaluation.
-
-#This week, Guoyu Zhang studied supervised and unsupervised machine learning algorithms. 
-Supervised learning algorithms are trained on labeled data and include techniques such as Artificial Neural Networks (ANN), 
-Naïve Bayes, and Decision Trees. Unsupervised learning algorithms do not require labeled data and are used to identify patterns and structures in data, 
-with common algorithms including K-Nearest Neighbors (KNN) and K-Means Clustering.
