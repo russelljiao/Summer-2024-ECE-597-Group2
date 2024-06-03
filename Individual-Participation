@@ -5,3 +5,7 @@
 2024/05/30 Added mean_cov_engineering.mlx
            The file transforms the points to create target mean and covariance, used to explore the given dataset. Mainly for researching the impacts of outliers, and the possibile classification technique: bayesian decision.
            --- Hui Xu
+2024/05/31 Added LiteracyReview
+           The file introduced the possibile classification technique, Vector Machine (SVM), Random Forest (RF), Naive Bayes (NB), and Artificial Neural Networks (ANN) in phishing email detection, summarizing their strengths and challenges.
+           ---Yihan Jiao
+
