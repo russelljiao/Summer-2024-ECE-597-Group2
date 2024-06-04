@@ -11,4 +11,6 @@
 2024/06/03 Added explore_mean_boundary.mlx
            The file explores the change of mean and impacts to the boundaries, which shows sparse means can lead to more clear boundaries. For this dataset, it is meaningful to regularize or remove the outliers to generate means.
            --- Hui Xu
-
+2024/06/04 Added explore_prior_boundary.mlx
+           The file discuss the impacts of changing priors, which indicates the prior of the class in the dataset can significantly influences the boundary. It is a good choice to try or estimate proper priors.
+           --- Hui Xu
