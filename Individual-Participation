@@ -4,16 +4,16 @@
            --- Renhou Zhang
 2024/05/30 Added mean_cov_engineering.mlx
            The file transforms the points to create target mean and covariance, used to explore the given dataset. Mainly for researching the impacts of outliers, and the possibile classification technique: bayesian decision.
-           --- Hui Xu
+           --- Hui Xu V01029720
 2024/05/31 Added LiteracyReview
            The file introduced the possibile classification technique, Vector Machine (SVM), Random Forest (RF), Naive Bayes (NB), and Artificial Neural Networks (ANN) in phishing email detection, summarizing their strengths and challenges.
            ---Yihan Jiao
 2024/06/03 Added explore_mean_boundary.mlx
            The file explores the change of mean and impacts to the boundaries, which shows sparse means can lead to more clear boundaries. For this dataset, it is meaningful to regularize or remove the outliers to generate means.
-           --- Hui Xu
+           --- Hui Xu V01029720
 2024/06/04 Added explore_prior_boundary.mlx
            The file discuss the impacts of changing priors, which indicates the prior of the class in the dataset can significantly influences the boundary. It is a good choice to try or estimate proper priors.
-           --- Hui Xu
+           --- Hui Xu V01029720
 2024/06/05 Added explore_outlier_boundary.mlx
            The file generates a few outliers and discuss the impacts to the boundaries.
-           --- Hui Xu
+           --- Hui Xu V01029720
