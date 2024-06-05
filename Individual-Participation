@@ -14,3 +14,6 @@
 2024/06/04 Added explore_prior_boundary.mlx
            The file discuss the impacts of changing priors, which indicates the prior of the class in the dataset can significantly influences the boundary. It is a good choice to try or estimate proper priors.
            --- Hui Xu
+2024/06/05 Added explore_outlier_boundary.mlx
+           The file generates a few outliers and discuss the impacts to the boundaries.
+           --- Hui Xu
