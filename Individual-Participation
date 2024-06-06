@@ -2,6 +2,9 @@
            The file contains preprocess steps for the email dataset. Including cleaning out Null data entries, convert messages into lowercase, and potential spam keyword detection (for separate normal emails from spam, used for generate classification).
            Work in progress.
            --- Renhou Zhang
+2024/05/30 Literature review on phishing email detection papers.
+           Look into suitable baseline classifiers for our problem.
+           --- Ke Xu V01037793
 2024/05/30 Added mean_cov_engineering.mlx
            The file transforms the points to create target mean and covariance, used to explore the given dataset. Mainly for researching the impacts of outliers, and the possibile classification technique: bayesian decision.
            --- Hui Xu V01029720
@@ -22,4 +25,8 @@
 2024/06/06 Added asset folder for data set and utils
            Added vol3D, and .mat to asset folder for matlab livescript consumption
            --- Hui Xu V01029720
-
+2024/06/06 Added logistic_regression.ipynb. 
+           Learned logistic regression model for classification problem.
+           Played with toy dataset to explore logistic regression and prepare 
+           for adaptation to our phishing email classification problem.
+           --- Ke Xu V01037793
