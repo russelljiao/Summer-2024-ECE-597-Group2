@@ -35,16 +35,8 @@
            for adaptation to our phishing email classification problem.
            --- Ke Xu V01037793
 2024/06/09 Data Processing
-
-		Load dataset.
-		Fill missing values.
-		Clean text (remove HTML tags, URLs, special characters, digits, convert to lowercase, remove stop words).
-		Combine cleaned ‘Subject’ and ‘Body’ text.
+		1.Load dataset. 2.Fill missing values. 3. Clean text (remove HTML tags, URLs, special characters, digits, convert to lowercase, remove stop words). 4. Combine cleaned ‘Subject’ and ‘Body’ text.
 
             Feature Extraction
-
-		Initialize TF-IDF Vectorizer (limit to 500 features).
-		Transform cleaned text to TF-IDF matrix.
-		Convert TF-IDF matrix to DataFrame.
-		Save TF-IDF features to CSV.
+		1. Initialize TF-IDF Vectorizer (limit to 500 features). 2. Transform cleaned text to TF-IDF matrix. 3. Convert TF-IDF matrix to DataFrame. 4. Save TF-IDF features to CSV.
             ------- Guoyu Zhang V01047027
