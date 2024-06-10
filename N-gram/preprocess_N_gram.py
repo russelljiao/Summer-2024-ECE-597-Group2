@@ -52,7 +52,7 @@ data['Cleaned_Body'] = data['Body'].apply(simple_preprocess_text)
 data['Cleaned_Text'] = data['Cleaned_Subject'] + " " + data['Cleaned_Body']
 
 # 检查清理后的数据
-print("清理后的数据:")
+print("Data after process:")
 print(data[['Cleaned_Subject', 'Cleaned_Body', 'Cleaned_Text']].head())
 
 # 初始化 N-gram Vectorizer
@@ -65,11 +65,11 @@ ngram_matrix = ngram_vectorizer.fit_transform(data['Cleaned_Text'])
 ngram_df = pd.DataFrame(ngram_matrix.toarray(), columns=ngram_vectorizer.get_feature_names_out())
 
 # 检查 N-gram DataFrame
-print("N-gram 特征矩阵:")
+print("N-gram characteristic matrix:")
 print(ngram_df.head())
 
 # 保存 N-gram 特征到 CSV 文件，不带索引
 output_file_path = '/Users/jiaoyihan/capstone/capstone_project/Processed_CaptstoneProjectData_2024_ngram.csv'
 ngram_df.to_csv(output_file_path, index=False)
 
-print(f"N-gram 特征已保存到文件: {output_file_path}")
+print(f"N-gram feature has been stored to new csv: {output_file_path}")
