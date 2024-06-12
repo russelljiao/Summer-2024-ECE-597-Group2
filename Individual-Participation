@@ -29,7 +29,7 @@
 2024/06/06 Added asset folder for data set and utils
            Added vol3D, and .mat to asset folder for matlab livescript consumption
            --- Hui Xu V01029720
-2024/06/06 Added logistic_regression.ipynb. 
+2024/06/06 Added `Ke-Xu/logistic_regression.ipynb` to explore logsitic regression. 
            Learned logistic regression model for classification problem.
            Played with toy dataset to explore logistic regression and prepare 
            for adaptation to our phishing email classification problem.
@@ -49,9 +49,9 @@
 	   This detailed representation allows for advanced text analysis and can be used in various natural language processing tasks, 
 	   such as text classification, sentiment analysis, and topic modeling.
 	   --- Yihan Jiao V01045917
-
-
-
-
-
-
+2024/06/12 Combine capstone dataset with kaggle dataset.
+            1. Added `Ke-Xu/subsample.ipynb` to randomly subsample normal emails from 
+                  Kaggle Enron Email Dataset. sample roughly same size as capstone dataset.
+            2. Added `Ke-Xu/combine.ipynb` to combine the two dataset, capstone emails with 
+                  positive labels and normal kaggle emails with negative labels.
+           --- Ke Xu V01037793
