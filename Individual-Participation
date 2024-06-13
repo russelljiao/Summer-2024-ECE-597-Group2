@@ -1,7 +1,4 @@
-2024/05/29 Added Preprocess.py
-           The file contains preprocess steps for the email dataset. Including cleaning out Null data entries, convert messages into lowercase, and potential spam keyword detection (for separate normal emails from spam, used for generate classification).
-           Work in progress.
-           --- Renhou Zhang
+
 2024/05/30 Literature review on phishing email detection papers.
            Look into suitable baseline classifiers for our problem.
            --- Ke Xu V01037793
@@ -24,8 +21,6 @@
 2024/06/05 Added explore_outlier_boundary.mlx
            The file generates a few outliers and discuss the impacts to the boundaries.
            --- Hui Xu V01029720
-2024/06/06 Added a python file for new preprocessing + KNN approach to see any features in the scam file
-           --- Renhou Zhang V01037648
 2024/06/06 Added asset folder for data set and utils
            Added vol3D, and .mat to asset folder for matlab livescript consumption
            --- Hui Xu V01029720
