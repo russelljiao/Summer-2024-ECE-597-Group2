@@ -50,3 +50,7 @@
             2. Added `Ke-Xu/combine.ipynb` to combine the two dataset, capstone emails with 
                   positive labels and normal kaggle emails with negative labels.
            --- Ke Xu V01037793
+2024/06/13 Explore SVM for binary classification.
+            1. Added `Ke-Xu/svm.ipynb` to explore svm for potential use to our email
+                  classification problem, which is also binary classification.
+           --- Ke Xu V01037793
