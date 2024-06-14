@@ -54,3 +54,6 @@
             1. Added `Ke-Xu/svm.ipynb` to explore svm for potential use to our email
                   classification problem, which is also binary classification.
            --- Ke Xu V01037793
+2024/06/13 Added  BoW.py
+           This file is to Load dataset, fill missing values, clean text and feature extraction.
+            --- Yi Lu V00901547
