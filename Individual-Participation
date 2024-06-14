@@ -29,6 +29,9 @@
            Played with toy dataset to explore logistic regression and prepare 
            for adaptation to our phishing email classification problem.
            --- Ke Xu V01037793
+2024/06/06 Added  Bayes PhishingEmail.py
+           This file is using the Naive Bayes classifier for phishing email detection to load and preprocess the data andsplit the dataset.
+            --- Yi Lu V00901547
 2024/06/09 Data Processing
 		1.Load dataset. 2.Fill missing values. 3. Clean text (remove HTML tags, URLs, special characters, digits, convert to lowercase, remove stop words). 4. Combine cleaned ‘Subject’ and ‘Body’ text.
 
@@ -55,5 +58,5 @@
                   classification problem, which is also binary classification.
            --- Ke Xu V01037793
 2024/06/13 Added  BoW.py
-           This file is to Load dataset, fill missing values, clean text and feature extraction.
+           This file is to load dataset, fill missing values, clean text and feature extraction.
             --- Yi Lu V00901547
