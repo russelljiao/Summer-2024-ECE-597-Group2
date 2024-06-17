@@ -38,11 +38,13 @@
             Feature Extraction
 		1. Initialize TF-IDF Vectorizer (limit to 500 features). 2. Transform cleaned text to TF-IDF matrix. 3. Convert TF-IDF matrix to DataFrame. 4. Save TF-IDF features to CSV.
             ------- Guoyu Zhang V01047027
-2024/06/09 Preprocesses phishing email subject and body text by removing unwanted characters, URLs, and stop words, 
+2024/06/09 Added Yihan-Jiao/preprocess_N_gram.py
+	   Preprocesses phishing email subject and body text by removing unwanted characters, URLs, and stop words, 
 	   and then combines them into a single cleaned text column. It then extracts N-gram features (1-grams, 2-grams, and 3-grams) from the cleaned text, 
 	   converts the features into a DataFrame, and saves the resulting N-gram feature matrix to a CSV file.
 	   --- Yihan Jiao V01045917
-2024/06/09 Uploaded a CSV file can be used for further analysis, such as text classification or clustering, 
+2024/06/09 Uploaded a CSV file 
+	   can be used for further analysis, such as text classification or clustering, 
 	   by utilizing the N-gram features to understand patterns and relationships in the email content.
 	   This detailed representation allows for advanced text analysis and can be used in various natural language processing tasks, 
 	   such as text classification, sentiment analysis, and topic modeling.
@@ -60,15 +62,15 @@
 2024/06/13 Added  BoW.py
            This file is to load dataset, fill missing values, clean text and feature extraction.
             --- Yi Lu V00901547
-2024/06/16 Added preprocess_email.py
+2024/06/16 Added Yihan-Jiao/preprocess_email.py
 	   This file done the preprocess part of the normal emails.Removing unwanted characters, URLs, and stop words, 
 	   and then combines them into a single cleaned text column. It then extracts N-gram features (1-grams, 2-grams, and 3-grams) from the cleaned text, 
 	   converts the features into a DataFrame, and saves the resulting N-gram feature matrix to a CSV file.
 	   ---Yihan Jiao V01045917
-2024/06/16 Added N-gram/combine.ipynb
+2024/06/16 Added Yihan-Jiao/combine.ipynb
 	   This file  combine the two data sets together to form a unified data set that contains all messages.
 	   Load the processed phishing and normal mail datasets into a data box and add a label column (for example, 1 for phishing and 0 for normal mail)
 	   ---Yihan Jiao V01045917
-2024/06/16 Added N-gram/logistic_regression.ipynb
+2024/06/16 Added Yihan-Jiao/logistic_regression.ipynb
 	   Load and divide the data set;Train logistic regression models;Predict and evaluation models;Use joblib to save the trained model to a file for later use.
 	   ---Yihan Jiao V01045917
