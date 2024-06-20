@@ -35,7 +35,6 @@
 2024/06/09 Data Processing
 		1.Load dataset. 2.Fill missing values. 3. Clean text (remove HTML tags, URLs, special characters, digits, convert to lowercase, remove stop words). 
                 4. Combine cleaned ‘Subject’ and ‘Body’ text.
-
             Feature Extraction
 		1. Initialize TF-IDF Vectorizer (limit to 500 features). 2. Transform cleaned text to TF-IDF matrix. 3. Convert TF-IDF matrix to DataFrame. 
                 4. Save TF-IDF features to CSV.
