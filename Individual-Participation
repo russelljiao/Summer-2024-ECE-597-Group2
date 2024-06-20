@@ -33,10 +33,11 @@
            This file is using the Naive Bayes classifier for phishing email detection to load and preprocess the data andsplit the dataset.
             --- Yi Lu V00901547
 2024/06/09 Data Processing
-		1.Load dataset. 2.Fill missing values. 3. Clean text (remove HTML tags, URLs, special characters, digits, convert to lowercase, remove stop words). 4. Combine cleaned ‘Subject’ and ‘Body’ text.
-
+		1.Load dataset. 2.Fill missing values. 3. Clean text (remove HTML tags, URLs, special characters, digits, convert to lowercase, remove stop words). 
+                4. Combine cleaned ‘Subject’ and ‘Body’ text.
             Feature Extraction
-		1. Initialize TF-IDF Vectorizer (limit to 500 features). 2. Transform cleaned text to TF-IDF matrix. 3. Convert TF-IDF matrix to DataFrame. 4. Save TF-IDF features to CSV.
+		1. Initialize TF-IDF Vectorizer (limit to 500 features). 2. Transform cleaned text to TF-IDF matrix. 3. Convert TF-IDF matrix to DataFrame. 
+                4. Save TF-IDF features to CSV.
             ------- Guoyu Zhang V01047027
 2024/06/09 Added Yihan-Jiao/preprocess_N_gram.py
 	   Preprocesses phishing email subject and body text by removing unwanted characters, URLs, and stop words, 
@@ -74,3 +75,10 @@
 2024/06/16 Added Yihan-Jiao/logistic_regression.ipynb
 	   Load and divide the data set;Train logistic regression models;Predict and evaluation models;Use joblib to save the trained model to a file for later use.
 	   ---Yihan Jiao V01045917
+2024/06/19 Added Guoyu zhang/TF-IDF_SVM.ipynb
+          Uses an SVM model to extract features, train, classify, and evaluate phishing and normal emails.
+          ---Guoyu Zhang V01047027
+2024/06/20 Added Guoyu zhang/TF-IDF MODELTRAINING.ipynb
+         This code preprocesses phishing and normal email datasets, extracts features using TF-IDF, 
+         trains a Naive Bayes classifier to distinguish between phishing and normal emails, evaluates the model’s performance, 
+         ---Guoyu Zhang V01047027
