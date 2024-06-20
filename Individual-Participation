@@ -75,10 +75,10 @@
 2024/06/16 Added Yihan-Jiao/logistic_regression.ipynb
 	   Load and divide the data set;Train logistic regression models;Predict and evaluation models;Use joblib to save the trained model to a file for later use.
 	   ---Yihan Jiao V01045917
-2024/06/19 Added Guoyu zhang/TD-IDF_SVM.ipynb
+2024/06/19 Added Guoyu zhang/TF-IDF_SVM.ipynb
           Uses an SVM model to extract features, train, classify, and evaluate phishing and normal emails.
           ---Guoyu Zhang V01047027
-2024/06/20 Added Guoyu zhang/TD-IDF MODELTRAINING.ipynb
+2024/06/20 Added Guoyu zhang/TF-IDF MODELTRAINING.ipynb
          This code preprocesses phishing and normal email datasets, extracts features using TF-IDF, 
          trains a Naive Bayes classifier to distinguish between phishing and normal emails, evaluates the model’s performance, 
          ---Guoyu Zhang V01047027
