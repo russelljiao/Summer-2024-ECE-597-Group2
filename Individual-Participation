@@ -82,3 +82,10 @@
          This code preprocesses phishing and normal email datasets, extracts features using TF-IDF, 
          trains a Naive Bayes classifier to distinguish between phishing and normal emails, evaluates the model’s performance, 
          ---Guoyu Zhang V01047027
+2024/06/20 Added Spam_Email_Classification_Work_in_Progress.rar
+           This includes a successful implemention of:
+		1. Data cleaning for both phising and normal emails.
+		2. TF-IDF feature engineering.
+		3. Logistic Regression model training and evaluation.
+		4. Random forest mode training and evaluation.
+           --- Reynolds Zhang V01037648
