@@ -1,10 +1,4 @@
 
-2024/05/30 Literature review on phishing email detection papers.
-           Look into suitable baseline classifiers for our problem.
-           --- Ke Xu V01037793
-2024/05/30 Added mean_cov_engineering.mlx
-           The file transforms the points to create target mean and covariance, used to explore the given dataset. Mainly for researching the impacts of outliers, and the possibile classification technique: bayesian decision.
-           --- Hui Xu V01029720
 2024/05/31 Added LiteracyReview
            The file introduced the possibile classification technique, Vector Machine (SVM), Random Forest (RF), Naive Bayes (NB), and Artificial Neural Networks (ANN) in phishing email detection, summarizing their strengths and challenges.
            ---Yihan Jiao
@@ -12,23 +6,7 @@
           This week, Guoyu Zhang studied supervised and unsupervised machine learning algorithms. Supervised learning algorithms are trained on labeled data and include techniques such as Artificial Neural Networks (ANN), 
           Naïve Bayes, and Decision Trees. Unsupervised learning algorithms do not require labeled data and are used to identify patterns and structures in data, with common algorithms including K-Nearest Neighbors (KNN) and K-Means Clustering.
           ---Guoyu Zhang V01047027
-2024/06/03 Added explore_mean_boundary.mlx
-           The file explores the change of mean and impacts to the boundaries, which shows sparse means can lead to more clear boundaries. For this dataset, it is meaningful to regularize or remove the outliers to generate means.
-           --- Hui Xu V01029720
-2024/06/04 Added explore_prior_boundary.mlx
-           The file discuss the impacts of changing priors, which indicates the prior of the class in the dataset can significantly influences the boundary. It is a good choice to try or estimate proper priors.
-           --- Hui Xu V01029720
-2024/06/05 Added explore_outlier_boundary.mlx
-           The file generates a few outliers and discuss the impacts to the boundaries.
-           --- Hui Xu V01029720
-2024/06/06 Added asset folder for data set and utils
-           Added vol3D, and .mat to asset folder for matlab livescript consumption
-           --- Hui Xu V01029720
-2024/06/06 Added `Ke-Xu/logistic_regression.ipynb` to explore logsitic regression. 
-           Learned logistic regression model for classification problem.
-           Played with toy dataset to explore logistic regression and prepare 
-           for adaptation to our phishing email classification problem.
-           --- Ke Xu V01037793
+
 2024/06/06 Added  Bayes PhishingEmail.py
            This file is using the Naive Bayes classifier for phishing email detection to load and preprocess the data andsplit the dataset.
             --- Yi Lu V00901547
@@ -50,16 +28,6 @@
 	   This detailed representation allows for advanced text analysis and can be used in various natural language processing tasks, 
 	   such as text classification, sentiment analysis, and topic modeling.
 	   --- Yihan Jiao V01045917
-2024/06/12 Combine capstone dataset with kaggle dataset.
-            1. Added `Ke-Xu/subsample.ipynb` to randomly subsample normal emails from 
-                  Kaggle Enron Email Dataset. sample roughly same size as capstone dataset.
-            2. Added `Ke-Xu/combine.ipynb` to combine the two dataset, capstone emails with 
-                  positive labels and normal kaggle emails with negative labels.
-           --- Ke Xu V01037793
-2024/06/13 Explore SVM for binary classification.
-            1. Added `Ke-Xu/svm.ipynb` to explore svm for potential use to our email
-                  classification problem, which is also binary classification.
-           --- Ke Xu V01037793
 2024/06/13 Added  BoW.py
            This file is to load dataset, fill missing values, clean text and feature extraction.
             --- Yi Lu V00901547
@@ -82,10 +50,3 @@
          This code preprocesses phishing and normal email datasets, extracts features using TF-IDF, 
          trains a Naive Bayes classifier to distinguish between phishing and normal emails, evaluates the model’s performance, 
          ---Guoyu Zhang V01047027
-2024/06/20 Added Spam_Email_Classification_Work_in_Progress.rar
-           This includes a successful implemention of:
-		1. Data cleaning for both phising and normal emails.
-		2. TF-IDF feature engineering.
-		3. Logistic Regression model training and evaluation.
-		4. Random forest mode training and evaluation.
-           --- Reynolds Zhang V01037648
