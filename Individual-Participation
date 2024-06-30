@@ -56,3 +56,9 @@
 2024/06/27 Added Yihan-Jiao/random_forest.py
 	Load and divide the data set;Train random forest models;Predict and evaluation models;Use joblib to save the trained model to a file for later use.
 	 ---Yihan Jiao V01045917
+2024/06/30 Added K-Nearest.ipynb,Logistic Regression.ipynb,tf_idf random forest.ipynb
+        Today, I completed the implementation and addition of three machine learning models for phishing email classification: K-Nearest.ipynb for K-Nearest Neighbors, 
+        Logistic_Regression.ipynb for Logistic Regression, and tf_idf_random_forest.ipynb for Random Forest. These notebooks include data preprocessing, 
+        TF-IDF feature extraction, model training, and evaluation.
+        --Guoyu Zhang v01047027
+        
