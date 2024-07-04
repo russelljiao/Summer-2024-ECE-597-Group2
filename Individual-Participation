@@ -61,4 +61,8 @@
         Logistic_Regression.ipynb for Logistic Regression, and tf_idf_random_forest.ipynb for Random Forest. These notebooks include data preprocessing, 
         TF-IDF feature extraction, model training, and evaluation.
         --Guoyu Zhang v01047027
-        
+2024/07/03 Added knn.ipynb, svm.ipynb
+	Completed all four algorithms by n-grams feature extraction.
+	The n-grams feature extraction includes logistic regression, SVM, KNN and random forest alogorithms. These notebook include data preprocession,
+	feature extraction, model training and evaluation.
+	---Yihan Jiao V01045917
