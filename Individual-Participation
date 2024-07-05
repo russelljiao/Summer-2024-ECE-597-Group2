@@ -66,3 +66,6 @@
 	The n-grams feature extraction includes logistic regression, SVM, KNN and random forest alogorithms. These notebook include data preprocession,
 	feature extraction, model training and evaluation.
 	---Yihan Jiao V01045917
+2024/07/04 Added Naive_Bayes.ipynb
+	Train a Naive Bayes model, evaluate its performance and plot confusion matrix.
+        --- Yi Lu V00901547
