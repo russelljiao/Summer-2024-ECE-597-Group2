@@ -67,5 +67,5 @@
 	feature extraction, model training and evaluation.
 	---Yihan Jiao V01045917
 2024/07/04 Added Naive_Bayes.ipynb
-	Train a Naive Bayes model, evaluate its performance and plot confusion matrix.
+	Trained a Naive Bayes model, evaluated its performance and ploted confusion matrix.
         --- Yi Lu V00901547
